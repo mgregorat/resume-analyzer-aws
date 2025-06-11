@@ -17,17 +17,14 @@ This project allows users to upload a resume PDF, extracts the text using Amazon
 - `outputs/`: Sample outputs for testing
 - `requirements.txt`: Dependencies for Lambda
 
-## 🚀 How It Works
+## How It Works
 1. User uploads a PDF resume via the frontend.
 2. Resume is saved to S3.
 3. Lambda is triggered → uses Textract to extract text.
 4. Resume text is sent to an LLM (via Bedrock or OpenAI).
 5. Suggestions are returned and displayed/saved.
 
-## 📈 Future Features
+Future Features
 - Job description matching
 - Resume scoring
 - Tailored cover letter generation
-
-## 📜 License
-MIT
